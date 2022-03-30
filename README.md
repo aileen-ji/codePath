@@ -76,7 +76,7 @@ Overtime
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://umich.zoom.us/rec/share/c-mp5Hapv0530eCx1LNuOwQqnAhBD7ImRMpe9U21goHbzvNWwNMr42E5ZaRzmQnv.VxVlyMU4VWOPVISf?startTime=1648605567000)
+[My 5-minute Interview Recording](https://loom.com/share/002ac26b717d411daf9ff4dd1d7179e0)
 
 ## License
 
