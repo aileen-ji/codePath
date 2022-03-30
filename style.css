@@ -1,0 +1,147 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: lightblue;
+  color: black;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: verdana, arial, sans-serif;
+}
+
+#gameButtonArea > button {
+  width: 60px;
+  height: 250px;
+  margin: 1px;
+  border: none;
+}
+
+#button1 {
+  box-shadow: 0 9px firebrick;
+  background: lightcoral;
+  background-size: cover;
+}
+
+#button2 {
+  background: lightsalmon;
+  box-shadow: 0 9px darkorange;
+}
+
+#button3 {
+  background: lemonchiffon;
+  box-shadow: 0 9px goldenrod;
+}
+
+#button4 {
+  background: lightgreen;
+  box-shadow: 0 9px forestgreen;
+}
+
+#button5 {
+  background: lightskyblue;
+  box-shadow: 0 9px dodgerblue;
+}
+
+#button6 {
+  background: MediumSlateBlue;
+  box-shadow: 0 9px DarkSlateBlue;
+}
+
+#button7 {
+  background: orchid;
+  box-shadow: 0 9px mediumorchid;
+}
+
+#gameButtonArea > button:active {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+}
+
+#button1:active,
+#button1.lit {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+  background-image: url('https://images.pexels.com/photos/54320/rose-roses-flowers-red-54320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+#button2:active,
+#button2.lit {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+  background-image: url('https://images.pexels.com/photos/4498792/pexels-photo-4498792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+#button3:active,
+#button3.lit {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+  background-image: url('https://images.pexels.com/photos/2122328/pexels-photo-2122328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+#button4:active,
+#button4.lit {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+  background-image: url('https://images.pexels.com/photos/235648/pexels-photo-235648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+#button5:active,
+#button5.lit {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+  background-image: url('https://images.pexels.com/photos/373394/pexels-photo-373394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+#button6:active,
+#button6.lit {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+  background-image: url('https://images.pexels.com/photos/8246465/pexels-photo-8246465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+#button7:active,
+#button7.lit {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+  background-image: url('https://images.pexels.com/photos/5815/flowers-purple-garden-plant.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
