@@ -72,7 +72,7 @@ Overtime
    I would also try to add audio to the ticking clock so that when the time is in the last 5 seconds, play ticking sounds with every tick to make it more stressful as the time limit approaches.
    I noticed that using the preview panel, sometimes the timer ticks down very quickly, but if I preview in a different tab, the issue is resolved. Maybe I could look into delays more.
    On top of delays, I could also have viewed my website in other browsers such as IE and Firefox, and how it would look on a mobile device, then make changes to the website to be compatible with all browsers and devices.
-   I attempted to create a website where the buttons are instruments, and the audio clips of each instrument's sound would play. However, even after reviewing the audio link, I could not figure out how to make this new feature fit into
+   I attempted to create a website where the buttons are instruments, and the audio clips of each instrument's sound would play. However, even after reviewing the audio link and trying for 3+ hours, I could not figure out how to make this new feature fit into
    the existing system, so that was a bit disappointing for me.
 
 ## Interview Recording URL Link
