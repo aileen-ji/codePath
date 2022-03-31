@@ -4,7 +4,7 @@
 
 Submitted by: Aileen Ji
 
-Time spent: 8 hours spent in total
+Time spent: 11 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/melted-different-shadow
 
@@ -65,14 +65,15 @@ Overtime
    Another question I had is related to the answer to the first question. I would assume that calling the timer at the end of playClueSequence() would lead to the timer starting after the sequence was played, but it started simultaneously with the sequence. I wonder if this is special in JavaScript that the function calls somehow take priority, but it could be a logic error on my end.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-   
+
    If I had more time to work on this project, I would fix my timer so that it starts when the sequence finishes playing. Here are two methods I think could produce this result:
    Use a boolean value to track if the sequence has finished playing, once it becomes true, call the timer function.
    Utilize the nextClueWaitTime variable to associate it with the timer.
    I would also try to add audio to the ticking clock so that when the time is in the last 5 seconds, play ticking sounds with every tick to make it more stressful as the time limit approaches.
    I noticed that using the preview panel, sometimes the timer ticks down very quickly, but if I preview in a different tab, the issue is resolved. Maybe I could look into delays more.
    On top of delays, I could also have viewed my website in other browsers such as IE and Firefox, and how it would look on a mobile device, then make changes to the website to be compatible with all browsers and devices.
-   The only optional requirement I did not do was the audio files. I thought of implementing piano notes for each button, but that part was very confusing for me. I do think that if I spent more time, it can be acheived.
+   I attempted to create a website where the buttons are instruments, and the audio clips of each instrument's sound would play. However, even after reviewing the audio link, I could not figure out how to make this new feature fit into
+   the existing system, so that was a bit disappointing for me.
 
 ## Interview Recording URL Link
 
